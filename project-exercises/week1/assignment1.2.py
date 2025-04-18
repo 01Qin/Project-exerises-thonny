@@ -22,8 +22,6 @@ while True:
     oled.show()
     
     
-    
-
     #user_input = input("please enter a word (or ctrl+c to quit): ")
     #oled.fill(0)
     

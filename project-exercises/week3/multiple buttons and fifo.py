@@ -1,7 +1,6 @@
 from machine import Pin
 from fifo import Fifo
 
-
 class Interrupt_button:
     def __init__(self, button_pin, fifo):
         self.button = Pin(button_pin, mode=Pin.IN, pull=Pin.PULL_UP)
